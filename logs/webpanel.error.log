@@ -1,0 +1,19 @@
+2014/09/13 23:02:48 [info] 4630#0: *72 peer closed connection in SSL handshake while SSL handshaking, client: 127.0.0.1, server: 127.0.0.1:8081
+2014/09/13 23:02:48 [info] 4630#0: *73 peer closed connection in SSL handshake while SSL handshaking, client: 127.0.0.1, server: 127.0.0.1:8081
+2014/09/13 23:02:48 [info] 4630#0: *74 peer closed connection in SSL handshake while SSL handshaking, client: 127.0.0.1, server: 127.0.0.1:8081
+2014/09/13 23:02:49 [info] 4630#0: *75 client closed connection while waiting for request, client: 127.0.0.1, server: 127.0.0.1:8081
+2014/09/13 23:02:52 [error] 4630#0: *76 open() "/home/nginx/webpanel/favicon.ico" failed (2: No such file or directory), client: 127.0.0.1, server: webpanel.localdomain, request: "GET /favicon.ico HTTP/1.1", host: "127.0.0.1:8081"
+2014/09/13 23:03:00 [info] 4630#0: *78 client closed connection while waiting for request, client: 127.0.0.1, server: 127.0.0.1:8081
+2014/09/13 23:03:00 [info] 4630#0: *79 client closed connection while waiting for request, client: 127.0.0.1, server: 127.0.0.1:8081
+2014/09/13 23:03:00 [info] 4630#0: *80 client closed connection while waiting for request, client: 127.0.0.1, server: 127.0.0.1:8081
+2014/09/13 23:03:12 [info] 4630#0: *81 client closed connection while waiting for request, client: 127.0.0.1, server: 127.0.0.1:8081
+2014/09/13 23:03:12 [info] 4630#0: *82 client closed connection while waiting for request, client: 127.0.0.1, server: 127.0.0.1:8081
+2014/09/14 16:14:29 [info] 1781#0: *114 peer closed connection in SSL handshake while SSL handshaking, client: 127.0.0.1, server: 127.0.0.1:8081
+2014/09/14 16:14:29 [info] 1781#0: *115 peer closed connection in SSL handshake while SSL handshaking, client: 127.0.0.1, server: 127.0.0.1:8081
+2014/09/14 16:14:29 [info] 1781#0: *116 client closed connection while waiting for request, client: 127.0.0.1, server: 127.0.0.1:8081
+2014/09/14 16:14:30 [info] 1781#0: *117 client closed connection while waiting for request, client: 127.0.0.1, server: 127.0.0.1:8081
+2014/09/14 16:14:32 [error] 1781#0: *118 open() "/home/nginx/webpanel/favicon.ico" failed (2: No such file or directory), client: 127.0.0.1, server: webpanel.localdomain, request: "GET /favicon.ico HTTP/1.1", host: "127.0.0.1:8081"
+2014/09/14 16:38:01 [info] 5591#0: *1 peer closed connection in SSL handshake while SSL handshaking, client: 127.0.0.1, server: 127.0.0.1:8082
+2014/09/14 16:38:01 [info] 5591#0: *2 peer closed connection in SSL handshake while SSL handshaking, client: 127.0.0.1, server: 127.0.0.1:8082
+2014/09/14 16:38:01 [info] 5591#0: *3 client closed connection while waiting for request, client: 127.0.0.1, server: 127.0.0.1:8082
+2014/09/14 16:38:01 [error] 5591#0: *4 open() "/home/nginx/webpanel/favicon.ico" failed (2: No such file or directory), client: 127.0.0.1, server: webpanel.localdomain, request: "GET /favicon.ico HTTP/1.1", host: "127.0.0.1:8082"
