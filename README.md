@@ -1,6 +1,12 @@
 furry-dubstep
 =============
 
+and im really inrested in researching into mitm attacks considering two factor auth doesnt really do much 
+if you miss a trick and login in once your pretty screwed but assuming an mitm attack cant control 
+the server respose address i really want to setup some hard trolling honeypots still relies on having multiple networks out / in
+from the same location and your login box being the only mitm target or hoping the attacker hasnt cracked a rooted a cell tower
+while you use public wifi 
+
 cleaning all my code and updating things
 made a new webpanel from scratch to show a current system view of my internal nspawn setup and all running services
 but i like this one better or atleast the z-index header / footer with a page content div and two spacers 
