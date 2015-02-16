@@ -30,15 +30,18 @@ chromium if closed via alt+shift+c in dwm ignores any settings you have and save
 short of sticking an fstab entry for tmpfs at .config/chromium im never going to have this close properly
 
 i do know that bob being in your house could root the system making all this irrelevent proxy
-through your ip to avoid bank geoip checks and probably pick up orders while hes there but that doesnt fit my scenario
+through your ip remotely to avoid bank geoip checks and probably pick up orders while hes there but that doesnt fit my scenario
 and you suck for not using full disk encryption
 they are other ways to do this 
 
 i dont like the idea of persistent auth tokens that make 2 factor auth redundant and dont have any fallbacks or even a hint of a time out provided you login frequently
 
+needs multi login attempt from single auth token regardless of network ip + alot of other stuff basically just want to poc some paranoid cookie settings 
+
+ill do some hard research into all of this still assuming alot but having the constant fail of chromium closing and not wiping cookies i want some piece of mind 
+
 pretty much just ranting and repulling this to my computer 
 ##############################################
-
 
 half finished nginx two factor auth login 
 
