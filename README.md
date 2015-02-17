@@ -3,7 +3,7 @@ furry-dubstep
 
 and im really inrested in researching into mitm attacks considering two factor auth doesnt really do much 
 if you miss a trick and login in once your pretty screwed but assuming an mitm attack cant control 
-the server respose address i really want to setup some hard trolling honeypots still relies on having multiple networks out / in
+the server response address i really want to setup some hard trolling honeypots still relies on having multiple networks out / in
 from the same location and your login box being the only mitm target or hoping the attacker hasnt cracked a rooted cell tower
 while you use public wifi and your phone
 
@@ -18,9 +18,10 @@ to have a server side sanity check to manage stolen cookies
 
 basically i get bored alot...
 bobs a bit of a dick everybody hates bob
-bob picks the lock on your house boots your computer copies over .mozzila .config/chromium to his laptop sets up a mitm to get your password the next time you login then leaves
-bob can now login as you regardless of two factor auth + unlock all your google security settings and remove the entries from places you arent suppose to be in
-pretty much persistent access that you cant track or atleast the time frame is incredibly small
+bob picks the lock on your house boots your computer copies over .mozzila .config/chromium to his laptop sets up a keylogger to get your password the next time you login then leaves
+bob can now login as you regardless of two factor auth + unlock all your google security settings, 
+going to look at account lock out + billing subscription (valid way to generate money for malicious apps? not the first time ive heard of apps that ring premium numbers to generate revenue)
+pretty much persistent access and if you dont google security checkup for a month logs will be removed 
 
 server side cookie that gets decrypted against incoming ip 
 client sends cookie... server checks its cookie against the incoming ip
