@@ -17,7 +17,7 @@ best case can auth with an account/server unknown to mitm then rick roll yoursel
 totally getting out of scope because people keep posting shit about goverenment spying basically your fucked
 make a keyboard that can cache / crypt keystrokes has removable easy to eat / destroy pre shared keys + otp and never trust a networked computer again
 1 no computer will ever know what you type in it 2 they cant torture you if you know nothing well they can and they probably will anyway
-or make your own radio and see how arsed raped you get in prison for breaking more laws that protect one of the only valid secure forms of comms
+or make your own radio and see how arse raped you get in prison for breaking more laws that protect one of the only valid secure forms of comms
 
 so in short this is assuming your phone can be used as a safe point from prying eyes, which is even more lulz considering when i suggested the above
 using android as an input method for secure comms on dirty nodes the defacto google search response was its to easy to own android over usb... never
