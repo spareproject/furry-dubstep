@@ -3,9 +3,28 @@ furry-dubstep
 
 and im really inrested in researching into mitm attacks considering two factor auth doesnt really do much 
 if you miss a trick and login in once your pretty screwed but assuming an mitm attack cant control 
-the server response address i really want to setup some hard trolling honeypots still relies on having multiple networks out / in
-from the same location and your login box being the only mitm target or hoping the attacker hasnt cracked a rooted cell tower
-while you use public wifi and your phone
+the server response address i really want to setup some hard trolling honeypots 
+
+still relies on having multiple networks out / in from the same location and your login box being the only target
+or hoping the attacker hasnt cracked a rooted cell tower while you use public wifi and your phone.
+then theres the lulz of having to get a mitm check email address, server address etc out of your network on signup...
+basically no pre shared keys no safe internet if you can get a verifiable crpyto channel between you 
+and the server your using, ensure it isnt already owned along with the million other things that can go wrong
+then you might stand a chance.
+worse case can log mitms that have gone through increases recovery time to protect against the lost data  while all your shit gets bruteforced
+best case can auth with an account/server unknown to mitm then rick roll yourself so it never logs you in
+
+totally getting out of scope because people keep posting shit about goverenment spying basically your fucked
+make a keyboard that can cache / crypt keystrokes has removable easy to eat / destroy pre shared keys + otp and never trust a networked computer again
+1 no computer will ever know what you type in it 2 they cant torture you if you know nothing well they can and they probably will anyway
+or make your own radio and see how arsed raped you get in prison for breaking more laws that protect one of the only valid secure forms of comms
+
+so in short this is assuming your phone can be used as a safe point from prying eyes, which is even more lulz considering when i suggested the above
+using android as an input method for secure comms on dirty nodes the defacto google search response was its to easy to own android over usb... never
+looked into bluetooth / wifi but assuming its even worse (could try the usb condoms to allow only keystrokes out?)
+
+so rant over back to the... pretty pointless mitm check still pretty viable to use one of the many tricks / try it enough times and one 
+will go through phishing attempts and the fact that persistent auth cookies without fallbacks in place suck... 
 
 cleaning all my code and updating things
 made a new webpanel from scratch to show a current system view of my internal nspawn setup and all running services
