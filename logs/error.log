@@ -1,1 +1,17 @@
 
+2015/02/18 21:39:14 [notice] 13626#0: using the "epoll" event method
+2015/02/18 21:39:14 [notice] 13626#0: nginx/1.6.2
+2015/02/18 21:39:14 [notice] 13626#0: OS: Linux 3.18.6-1-ARCH
+2015/02/18 21:39:14 [notice] 13626#0: getrlimit(RLIMIT_NOFILE): 1024:4096
+2015/02/18 21:39:14 [emerg] 13627#0: open() "/home/nginx/nginx.pid" failed (13: Permission denied)
+2015/02/18 21:41:05 [notice] 13706#0: using the "epoll" event method
+2015/02/18 21:41:05 [notice] 13706#0: nginx/1.6.2
+2015/02/18 21:41:05 [notice] 13706#0: OS: Linux 3.18.6-1-ARCH
+2015/02/18 21:41:05 [notice] 13706#0: getrlimit(RLIMIT_NOFILE): 1024:4096
+2015/02/18 21:41:05 [emerg] 13707#0: open() "/home/nginx/nginx.pid" failed (13: Permission denied)
+2015/02/18 21:41:47 [notice] 13748#0: using the "epoll" event method
+2015/02/18 21:41:47 [notice] 13748#0: nginx/1.6.2
+2015/02/18 21:41:47 [notice] 13748#0: OS: Linux 3.18.6-1-ARCH
+2015/02/18 21:41:47 [notice] 13748#0: getrlimit(RLIMIT_NOFILE): 1024:4096
+2015/02/18 21:41:47 [notice] 13749#0: start worker processes
+2015/02/18 21:41:47 [notice] 13749#0: start worker process 13750

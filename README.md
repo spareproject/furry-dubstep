@@ -1,23 +1,39 @@
 furry-dubstep
 =============
 
+i know i should probably pick a more realistic language to do this in but im quick with bash at the minute because it meshes well with other things im doing
+
+checking this works on git and hosting at the same time... 
+log files are a total waste of data 
+
+cant see this lasting very long as a git repo i have a habit of making them unusable pretty quickly : /
+but worth a try 
+
+just rembered how much i gutted this to make the other version : / 
+
+ln -s /mnt/git/furry-dubstep /home/nginx
+./perms.sh - so nginx / fcgiwrap can actually read any of this 
+
 and im really inrested in researching into mitm attacks considering two factor auth doesnt really do much 
 if you miss a trick and login in once your pretty screwed but assuming an mitm attack cant control 
-the server response address i really want to setup some hard trolling honeypots 
+the server response address i really want to setup some hard trolling honeypots - 
 
 still relies on having multiple networks out / in from the same location and your login box being the only target
 or hoping the attacker hasnt cracked a rooted cell tower while you use public wifi and your phone.
 then theres the lulz of having to get a mitm check email address, server address etc out of your network on signup...
 basically no pre shared keys no safe internet if you can get a verifiable crpyto channel between you 
-and the server your using, ensure it isnt already owned along with the million other things that can go wrong
-then you might stand a chance.
-worse case can log mitms that have gone through increases recovery time to protect against the lost data  while all your shit gets bruteforced
+and the server your using, ensure it isnt already owned along with the million other things that can go wrong then you might stand a chance.
+
+worse case can log mitms that have gone through increases recovery time for damage control
 best case can auth with an account/server unknown to mitm then rick roll yourself so it never logs you in
+might look at reverse authentication 
 
 totally getting out of scope because people keep posting shit about goverenment spying basically your fucked
 make a keyboard that can cache / crypt keystrokes has removable easy to eat / destroy pre shared keys + otp and never trust a networked computer again
 1 no computer will ever know what you type in it 2 they cant torture you if you know nothing well they can and they probably will anyway
 or make your own radio and see how arse raped you get in prison for breaking more laws that protect one of the only valid secure forms of comms
+or attempt to make your own pki infrastructure without being owned multiple times along the way leaving a huge log trail jumping from country to country setting up secure channels 
+or use the big shiny quantom lazerz that go pew pew 
 
 so in short this is assuming your phone can be used as a safe point from prying eyes, which is even more lulz considering when i suggested the above
 using android as an input method for secure comms on dirty nodes the defacto google search response was its to easy to own android over usb... never
@@ -31,6 +47,9 @@ made a new webpanel from scratch to show a current system view of my internal ns
 but i like this one better or atleast the z-index header / footer with a page content div and two spacers 
 going to push getting an easy email out without needing to leave passwords all over the place 
 
+need to add multiple fcgiwrap sockets / users to mitigate and atleast attempt to split access control... 
+^ but realistically this is my localhost testing playground
+
 main reason for revisting... 
 basically i got sick of transferable cookies so im going to implement cookies or fake it till i make it proof of concept style
 to have a server side sanity check to manage stolen cookies
@@ -38,9 +57,7 @@ to have a server side sanity check to manage stolen cookies
 basically i get bored alot...
 bobs a bit of a dick everybody hates bob
 bob picks the lock on your house boots your computer copies over .mozzila .config/chromium to his laptop sets up a keylogger to get your password the next time you login then leaves
-bob can now login as you regardless of two factor auth + unlock all your google security settings, 
-going to look at account lock out + billing subscription (valid way to generate money for malicious apps? not the first time ive heard of apps that ring premium numbers to generate revenue)
-pretty much persistent access and if you dont google security checkup for a month logs will be removed 
+bob can now login as you regardless of two factor auth + unlock all your reauth with password security settings,
 
 server side cookie that gets decrypted against incoming ip 
 client sends cookie... server checks its cookie against the incoming ip
@@ -61,9 +78,7 @@ and you suck for not using full disk encryption
 they are other ways to do this 
 
 i dont like the idea of persistent auth tokens that make 2 factor auth redundant and dont have any fallbacks or even a hint of a time out provided you login frequently
-
 needs multi login attempt from single auth token regardless of network ip + alot of other stuff basically just want to poc some paranoid cookie settings 
-
 ill do some hard research into all of this still assuming alot but having the constant fail of chromium closing and not wiping cookies i want some piece of mind 
 
 pretty much just ranting and repulling this to my computer 
