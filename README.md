@@ -26,6 +26,10 @@ and the server your using, ensure it isnt already owned along with the million o
 
 ^ should probably explain the crazy here i know how to setup pki / web of trust but im not planning on paying to use it and or ever trusting it
 and the whole playing gov's against each other to obfuscate logs is only viable if you can country hop and setup you own key signing party without getting owned on the way round
+firefox used to ship with check for ssl revocation turned off... as in we have pulled this key because its not safe to use, firefox says fuck it who cares
+so im not expecting pki/web of trust to go around every available company to check that every key matches up meaning if a goverenment or organised crime can
+pay off a certificate authority or enough of them to pass a validity check they can mitm you regardless
+the extra network traffic that would be generated on a global scale to ensure that every member of a signing party agrees would be huge 
 
 didnt really think of the fact i can probably blag my current setup to let archiso act as a signing party for internal hosted nspawn nodes...
 still has the total fail of only having one node but should make this alot more interesting 
