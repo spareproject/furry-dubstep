@@ -2,3 +2,4 @@
 2015/02/18 21:41:58 [info] 13750#0: *1 peer closed connection in SSL handshake while SSL handshaking, client: 10.0.0.3, server: 0.0.0.0:8080
 2015/02/18 21:41:58 [info] 13750#0: *2 client closed connection while waiting for request, client: 10.0.0.3, server: 0.0.0.0:8080
 2015/02/18 21:42:04 [error] 13750#0: *3 open() "/home/nginx/webpanel/favicon.ico" failed (2: No such file or directory), client: 10.0.0.3, server: webpanel.localdomain, request: "GET /favicon.ico HTTP/1.1", host: "10.0.0.1:8080"
+2015/02/18 22:09:12 [info] 13750#0: *3 client 10.0.0.3 closed keepalive connection

@@ -24,6 +24,12 @@ then theres the lulz of having to get a mitm check email address, server address
 basically no pre shared keys no safe internet if you can get a verifiable crpyto channel between you 
 and the server your using, ensure it isnt already owned along with the million other things that can go wrong then you might stand a chance.
 
+^ should probably explain the crazy here i know how to setup pki / web of trust but im not planning on paying to use it and or ever trusting it
+and the whole playing gov's against each other to obfuscate logs is only viable if you can country hop and setup you own key signing party without getting owned on the way round
+
+didnt really think of the fact i can probably blag my current setup to let archiso act as a signing party for internal hosted nspawn nodes...
+still has the total fail of only having one node but should make this alot more interesting 
+
 worse case can log mitms that have gone through increases recovery time for damage control
 best case can auth with an account/server unknown to mitm then rick roll yourself so it never logs you in
 might look at reverse authentication 
