@@ -1,6 +1,17 @@
 furry-dubstep
 =============
 
+hahaha - i was going to go out of my way to poc some cert malware but apperently lenovo already has 
+the fact that advertising companies have this kind of power and go out of there way to make malware
+is absurd im definitly with bill hicks
+
+By the way, if anyone here is in marketing or advertising...kill yourself. Thank you. Just planting
+seeds, planting seeds is all I'm doing. No joke here, really. Seriously, kill yourself, you have no
+rationalisation for what you do, you are Satan's little helpers. Kill yourself, kill yourself, kill yourself
+now. Now, back to the show. Seriously, I know the marketing people: 'There's gonna be a joke comin'
+up.' There's no fuckin' joke. Suck a tail pipe, hang yourself...borrow a pistol from an NRA buddy,
+do something...rid the world of your evil fuckin' presence.
+
 i know i should probably pick a more realistic language to do this in but im quick with bash at the minute because it meshes well with other things im doing
 
 checking this works on git and hosting at the same time... 
