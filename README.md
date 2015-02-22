@@ -1,16 +1,14 @@
 furry-dubstep
 =============
 
+
 hahaha - i was going to go out of my way to poc some cert malware but apperently lenovo already has 
 the fact that advertising companies have this kind of power and go out of there way to make malware
-is absurd im definitly with bill hicks
-
-By the way, if anyone here is in marketing or advertising...kill yourself. Thank you. Just planting
-seeds, planting seeds is all I'm doing. No joke here, really. Seriously, kill yourself, you have no
-rationalisation for what you do, you are Satan's little helpers. Kill yourself, kill yourself, kill yourself
-now. Now, back to the show. Seriously, I know the marketing people: 'There's gonna be a joke comin'
-up.' There's no fuckin' joke. Suck a tail pipe, hang yourself...borrow a pistol from an NRA buddy,
-do something...rid the world of your evil fuckin' presence.
+is absurd
+i always assumed that when checking a cert it would contain multiple cert authorities that had signed it and you could random pick
+say 3 out 5 given to atleast force multiple forms of redundancy over different software / locations 
+and forcing a sign from atleast a few well known certs not just blagging your own multiple times
+only assumed this from embedded programing for sensor networks so hardware failure doesnt start blowing shit up
 
 i know i should probably pick a more realistic language to do this in but im quick with bash at the minute because it meshes well with other things im doing
 
@@ -41,6 +39,7 @@ firefox used to ship with check for ssl revocation turned off... as in we have p
 so im not expecting pki/web of trust to go around every available company to check that every key matches up meaning if a goverenment or organised crime can
 pay off a certificate authority or enough of them to pass a validity check they can mitm you regardless
 the extra network traffic that would be generated on a global scale to ensure that every member of a signing party agrees would be huge 
+
 
 didnt really think of the fact i can probably blag my current setup to let archiso act as a signing party for internal hosted nspawn nodes...
 still has the total fail of only having one node but should make this alot more interesting 
