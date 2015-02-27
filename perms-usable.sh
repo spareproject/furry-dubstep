@@ -1,8 +1,5 @@
 #!/bin/env bash
-
-# need to set uid/gid everytime it gets pulled...
 DIR="/mnt/git/furry-dubstep"
-
 chown nginx:nginx ${DIR}
 chown -R nginx:nginx  ${DIR}/config
 chown -R root:root    ${DIR}/fcgiwrap.sock
@@ -17,24 +14,16 @@ chown -R cgi:cgi      ${DIR}/webpanel/cgi-bin
 chown -R cgi:cgi      ${DIR}/webpanel/database
 chown root:root       ${DIR}/webserver.start
 chown root:root       ${DIR}/webserver.stop
-
-chmod 750 /mnt/git/furry-dubstep/config
-chmod 640 /mnt/git/furry-dubstep/config/*
-
-chmod 750 /mnt/git/furry-dubstep/keys
-chmod 640 /mnt/git/furry-dubstep/keys/*
-
-chmod 750 /mnt/git/furry-dubstep/logs
-chmod 640 /mnt/git/furry-dubstep/logs/*
-
-chmod 750 -R /mnt/git/furry-dubstep/old
-
-chmod 750 /mnt/git/furry-dubstep/perms-usable.sh
-chmod 750 /mnt/git/furry-dubstep/perms-upload.sh
-
-chmod 640 /mnt/git/furry-dubstep/README.md
-
-chmod -R 750 /mnt/git/furry-dubstep/webpanel
-
-chmod 750 /mnt/git/furry-dubstep/webserver.start
-chmod 750 /mnt/git/furry-dubstep/webserver.start
+chmod 750             ${DIR}/config
+chmod 640             ${DIR}/config/*
+chmod 750             ${DIR}/keys
+chmod 640             ${DIR}/keys/*
+chmod 750             ${DIR}/logs
+chmod 640             ${DIR}/logs/*
+chmod 750 -R          ${DIR}/old
+chmod 750             ${DIR}/perms-usable.sh
+chmod 750             ${DIR}/perms-upload.sh
+chmod 640             ${DIR}/README.md
+chmod 750 -R          ${DIR}/webpanel
+chmod 750             ${DIR}/webserver.start
+chmod 750             ${DIR}/webserver.start

@@ -61,3 +61,16 @@
 2015/02/27 20:43:24 [notice] 10142#0: signal 17 (SIGCHLD) received
 2015/02/27 20:43:24 [notice] 10142#0: worker process 10143 exited with code 0
 2015/02/27 20:43:24 [notice] 10142#0: exit
+2015/02/27 21:08:35 [notice] 11158#0: using the "epoll" event method
+2015/02/27 21:08:35 [notice] 11158#0: nginx/1.6.2
+2015/02/27 21:08:35 [notice] 11158#0: OS: Linux 3.18.6-1-ARCH
+2015/02/27 21:08:35 [notice] 11158#0: getrlimit(RLIMIT_NOFILE): 1024:4096
+2015/02/27 21:08:35 [notice] 11159#0: start worker processes
+2015/02/27 21:08:35 [notice] 11159#0: start worker process 11160
+2015/02/27 21:10:09 [notice] 11159#0: signal 3 (SIGQUIT) received, shutting down
+2015/02/27 21:10:09 [notice] 11160#0: gracefully shutting down
+2015/02/27 21:10:09 [notice] 11160#0: exiting
+2015/02/27 21:10:09 [notice] 11160#0: exit
+2015/02/27 21:10:09 [notice] 11159#0: signal 17 (SIGCHLD) received
+2015/02/27 21:10:09 [notice] 11159#0: worker process 11160 exited with code 0
+2015/02/27 21:10:09 [notice] 11159#0: exit
