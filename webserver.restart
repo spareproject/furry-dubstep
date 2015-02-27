@@ -1,7 +1,0 @@
-#!/bin/env bash 
-
-systemctl stop nginx
-systemctl stop fcgiwrap.socket
-systemctl stop fcgiwrap.service
-systemctl start nginx
-systemctl start fcgiwrap.socket
