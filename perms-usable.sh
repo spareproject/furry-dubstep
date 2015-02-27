@@ -3,12 +3,14 @@
 # need to set uid/gid everytime it gets pulled...
 DIR="/mnt/git/furry-dubstep"
 
+chown nginx:nginx ${DIR}
 chown -R nginx:nginx  ${DIR}/config
 chown -R root:root    ${DIR}/fcgiwrap.sock
 chown -R nginx:nginx  ${DIR}/keys
 chown -R nginx:nginx  ${DIR}/logs
 chown -R root:root    ${DIR}/old
-chown -R root:root    ${DIR}/perms.sh
+chown -R root:root    ${DIR}/perms-usable.sh
+chown -R root:root    ${DIR}/perms-upload.sh
 chown -R admin:wheel  ${DIR}/README.md
 chown -R nginx:nginx  ${DIR}/webpanel
 chown -R cgi:cgi      ${DIR}/webpanel/cgi-bin
@@ -27,7 +29,8 @@ chmod 640 /mnt/git/furry-dubstep/logs/*
 
 chmod 750 -R /mnt/git/furry-dubstep/old
 
-chmod 750 /mnt/git/furry-dubstep/perms.sh
+chmod 750 /mnt/git/furry-dubstep/perms-usable.sh
+chmod 750 /mnt/git/furry-dubstep/perms-upload.sh
 
 chmod 640 /mnt/git/furry-dubstep/README.md
 
