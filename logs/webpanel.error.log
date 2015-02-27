@@ -1,5 +1,0 @@
-2015/02/27 19:27:29 [info] 6770#0: *1 client closed connection while waiting for request, client: 10.0.0.3, server: 0.0.0.0:8080
-2015/02/27 19:30:34 [info] 6979#0: *1 client closed connection while waiting for request, client: 10.0.0.3, server: 0.0.0.0:8080
-2015/02/27 20:01:12 [info] 6979#0: *57 client closed connection while waiting for request, client: 10.0.0.3, server: 0.0.0.0:8080
-2015/02/27 20:41:47 [info] 10030#0: *1 client closed connection while waiting for request, client: 10.0.0.3, server: 0.0.0.0:8080
-2015/02/27 20:42:49 [info] 10143#0: *1 client closed connection while waiting for request, client: 10.0.0.3, server: 0.0.0.0:8080
