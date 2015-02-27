@@ -6,13 +6,10 @@ cgi
 html
 input
 header
+output
 variables_fieldset
 log_fieldset
-get_fieldset
-post_fieldset
-clear_fieldset
+input_test
 fcgiparams_fieldset
-database_delete
-database_debuggery
 footer
 ###########################################################################################################################################################################################################################################
