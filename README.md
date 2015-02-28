@@ -1,9 +1,10 @@
 furry-dubstep
 =============
 ##########################################################################################################################################################################################
-all of this is written in vim using 1920x1080 + xterm huge font i always write my notes like this and try to make single line points
-i hvae bap sdelling and have probably spent more of my time reading/talking to none english speaking people on the internet so have a high tolerance
-for writing style and mistakes if you dont its your loss 4|\|d 70 4!! 7h4 6r4mm37 |\|4z!z 60 f@uk y0u753lf you heard me...
+please tell me noscript.filterXExceptions.yahoo isnt as lulz as o your a yahoo iframe perform all the xss you want because adverts...?
+everytime i google it theres less and less information and the obscure names / only a true or false toggle in half of firefoxs about:config concerns me
+seriously im not wasting another 2 hours of my life going through all the changes yahoo made to firefox to try and tell advertising companies to go fuck themselves
+i need a new browser :( that only cares about html/css for text / layout control and can pass file extensions to system executables  
 ##########################################################################################################################################################################################
 this thing really doesnt want me to test it on a mobile : / pfft somethings about to be thrown out the window openwrt apperently cant do wifi anymore... 
 basically other than width being set to 100% the height is set entirely by the text size which can scale based on width or height
