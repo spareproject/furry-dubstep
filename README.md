@@ -5,6 +5,8 @@ please tell me noscript.filterXExceptions.yahoo isnt as lulz as o your a yahoo i
 everytime i google it theres less and less information and the obscure names / only a true or false toggle in half of firefoxs about:config concerns me
 seriously im not wasting another 2 hours of my life going through all the changes yahoo made to firefox to try and tell advertising companies to go fuck themselves
 i need a new browser :( that only cares about html/css for text / layout control and can pass file extensions to system executables  
+I dont really hate all advertising companies... if i want to buy something i always use google to find a product find reviews for a product and make purchasing desicions 
+but when they start stalking me around the internet and invading my personal life i think i should be entitled to get a restraining order.
 ##########################################################################################################################################################################################
 this thing really doesnt want me to test it on a mobile : / pfft somethings about to be thrown out the window openwrt apperently cant do wifi anymore... 
 basically other than width being set to 100% the height is set entirely by the text size which can scale based on width or height
