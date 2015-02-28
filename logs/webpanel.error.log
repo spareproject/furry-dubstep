@@ -4,3 +4,12 @@
 2015/02/27 20:41:47 [info] 10030#0: *1 client closed connection while waiting for request, client: 10.0.0.3, server: 0.0.0.0:8080
 2015/02/27 20:42:49 [info] 10143#0: *1 client closed connection while waiting for request, client: 10.0.0.3, server: 0.0.0.0:8080
 2015/02/27 21:08:42 [info] 11160#0: *1 client closed connection while waiting for request, client: 10.0.0.3, server: 0.0.0.0:8080
+2015/02/27 21:15:31 [info] 11502#0: *1 client closed connection while waiting for request, client: 10.0.0.3, server: 0.0.0.0:8080
+2015/02/28 09:38:15 [info] 1977#0: *1 client closed connection while waiting for request, client: 10.0.0.3, server: 0.0.0.0:8080
+2015/02/28 10:21:10 [info] 1977#0: *60 client closed connection while waiting for request, client: 10.0.0.3, server: 0.0.0.0:8080
+2015/02/28 11:03:56 [info] 5749#0: *1 SSL_read() failed (SSL: error:14094418:SSL routines:ssl3_read_bytes:tlsv1 alert unknown ca:SSL alert number 48) while waiting for request, client: 127.0.0.1, server: 0.0.0.0:8080
+2015/02/28 11:03:59 [error] 5749#0: *2 open() "/home/nginx/webpanel/favicon.ico" failed (2: No such file or directory), client: 127.0.0.1, server: webpanel.localdomain, request: "GET /favicon.ico HTTP/1.1", host: "127.0.0.1:8080"
+2015/02/28 11:03:59 [error] 5749#0: *2 open() "/home/nginx/webpanel/favicon.ico" failed (2: No such file or directory), client: 127.0.0.1, server: webpanel.localdomain, request: "GET /favicon.ico HTTP/1.1", host: "127.0.0.1:8080"
+2015/02/28 11:04:16 [info] 5749#0: *2 client 127.0.0.1 closed keepalive connection
+2015/02/28 11:08:51 [error] 5749#0: *4 open() "/home/nginx/webpanel/favicon.ico" failed (2: No such file or directory), client: 127.0.0.1, server: webpanel.localdomain, request: "GET /favicon.ico HTTP/1.1", host: "127.0.0.1:8080"
+2015/02/28 11:08:51 [error] 5749#0: *4 open() "/home/nginx/webpanel/favicon.ico" failed (2: No such file or directory), client: 127.0.0.1, server: webpanel.localdomain, request: "GET /favicon.ico HTTP/1.1", host: "127.0.0.1:8080"
