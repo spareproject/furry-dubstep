@@ -33,7 +33,6 @@ text-align:center;
 color:black;
 width:100%;
 }
-
 .menu{
 height:100%;
 margin:0px;
@@ -53,11 +52,11 @@ a:hover{
 background-color:black;
 color:green;
 }
+/****************************************************************************************************************************************************************************************/
 table{ margin:0px;padding:0px;}
 tr{ margin:0px;padding:0px; } 
 td{ margin:0px;padding:0px; }
 /****************************************************************************************************************************************************************************************/
-
 .login{
 position:absolute;
 top:50%;
@@ -65,18 +64,25 @@ left:50%;
 transform: translateY(-50%);
 transform: translateX(-50%);
 }
-
+.otp{
+position:absolute;
+top:50%;
+left:50%;
+transform: translateY(-50%);
+transform: translateX(-50%);
+}
 /****************************************************************************************************************************************************************************************/
 .left{ float:left }
 .right{ float:right }
 .center{ margin:auto; }
 p,h1,h2,h3,h4,h5,h6 { margin:0px; padding:0px; }
-
 form{ padding:0px; margin:0px; }
 fieldset { border:1px green solid; margin:1vh;padding:1vh; }
 legend { background-color:black; color:green;}
 input{ font-size:1vw; margin:1px; padding:1px; background-color:green; color:black; border:none; }
-
+.stretch{
+width:100%;
+}
 /*****************************************************/
 ::-webkit-input-placeholder { color: black; }
 :-moz-placeholder { color: black; }

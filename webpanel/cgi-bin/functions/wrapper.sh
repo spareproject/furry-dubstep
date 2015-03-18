@@ -26,7 +26,10 @@ echo "
 <div id='panel' class='top'>
 <a class='menu left' href='/cgi-bin/index.cgi'><h3><b>[spareProject.localdomain]</b></h3></a>
 <a class='menu left' href='/cgi-bin/login.cgi'><h3><b>[login]<b></h3></a>
+<a class='menu left' href='/cgi-bin/otp.cgi'><h3><b>[otp]<b></h3></a>
+<a class='menu left' href='/cgi-bin/shell.cgi'><h3><b>[shell]</b></h3></a>
 <a class='menu left' href='/cgi-bin/debug.cgi'><h3><b>[debug]</b></h3></a>
+<a class='menu left' href='/cgi-bin/gnupg.cgi'><h3><b>[gnupg]</b></h3></a>
 <a class='menu right' href=#><h3><b>[ `date` ]</b></h3></a>
 </div>
 <div id='spacer'>a</div>
@@ -147,6 +150,20 @@ echo "
 </tr>
 <tr>
 <td><input type='password' name='password' value='password'></td><td><input type='submit' name='login' value='login'></td>
+</tr>
+</table>
+</form>
+</fieldset>
+"
+}
+function otp { 
+echo "
+<fieldset class='otp'>
+<legend><h3><b>$FUNCNAME</b></h3></legend>
+<form action='#' method='post'>
+<table>
+<tr>
+<td><input type='text' name='otp' value='otp'></td><td><input type='submit' name='otp' value='submit'></td><td><a href=/cgi-bin/index.cgi>index</a></td>
 </tr>
 </table>
 </form>

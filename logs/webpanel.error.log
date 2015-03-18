@@ -1,0 +1,26 @@
+2015/03/01 03:34:12 [info] 6028#0: *1 client closed connection while waiting for request, client: 10.0.0.3, server: 0.0.0.0:8080
+2015/03/01 04:06:19 [info] 6028#0: *58 client closed connection while waiting for request, client: 10.0.0.3, server: 0.0.0.0:8080
+2015/03/01 04:41:41 [info] 6028#0: *118 client closed connection while waiting for request, client: 10.0.0.3, server: 0.0.0.0:8080
+2015/03/12 03:00:20 [info] 1738#0: *1 client closed connection while waiting for request, client: 10.0.0.3, server: 0.0.0.0:8080
+2015/03/12 03:00:25 [error] 1738#0: *2 open() "/home/nginx/webpanel/favicon.ico" failed (2: No such file or directory), client: 10.0.0.3, server: webpanel.localdomain, request: "GET /favicon.ico HTTP/1.1", host: "10.0.0.1:8080"
+2015/03/12 03:08:01 [info] 1738#0: *2 client 10.0.0.3 closed keepalive connection
+2015/03/12 03:10:50 [info] 1738#0: *24 client closed connection while waiting for request, client: 10.0.0.3, server: 0.0.0.0:8080
+2015/03/12 03:10:56 [error] 1738#0: *25 open() "/home/nginx/webpanel/favicon.ico" failed (2: No such file or directory), client: 10.0.0.3, server: webpanel.localdomain, request: "GET /favicon.ico HTTP/1.1", host: "10.0.0.1:8080"
+2015/03/12 19:34:47 [info] 1219#0: *1 client closed connection while waiting for request, client: 10.0.0.3, server: 0.0.0.0:8080
+2015/03/12 19:34:52 [error] 1219#0: *2 open() "/home/nginx/webpanel/favicon.ico" failed (2: No such file or directory), client: 10.0.0.3, server: webpanel.localdomain, request: "GET /favicon.ico HTTP/1.1", host: "10.0.0.1:8080"
+2015/03/12 20:04:42 [info] 1219#0: *59 client closed connection while waiting for request, client: 10.0.0.3, server: 0.0.0.0:8080
+2015/03/12 20:39:24 [info] 1219#0: *111 client closed connection while waiting for request, client: 10.0.0.3, server: 0.0.0.0:8080
+2015/03/12 21:26:10 [info] 1219#0: *163 client closed connection while waiting for request, client: 10.0.0.3, server: 0.0.0.0:8080
+2015/03/17 16:53:18 [info] 4361#0: *1 client closed connection while waiting for request, client: 10.0.0.3, server: 0.0.0.0:8080
+2015/03/17 16:53:25 [error] 4361#0: *2 open() "/home/nginx/webpanel/favicon.ico" failed (2: No such file or directory), client: 10.0.0.3, server: webpanel.localdomain, request: "GET /favicon.ico HTTP/1.1", host: "10.0.0.1:8080"
+2015/03/17 17:37:29 [info] 4361#0: *53 client closed connection while waiting for request, client: 10.0.0.3, server: 0.0.0.0:8080
+2015/03/17 18:19:56 [info] 4361#0: *108 client closed connection while waiting for request, client: 10.0.0.3, server: 0.0.0.0:8080
+2015/03/17 18:55:24 [info] 4361#0: *174 client closed connection while waiting for request, client: 10.0.0.3, server: 0.0.0.0:8080
+2015/03/17 19:25:38 [info] 4361#0: *215 client closed connection while waiting for request, client: 10.0.0.3, server: 0.0.0.0:8080
+2015/03/17 19:54:37 [info] 4361#0: *268 client closed connection while waiting for request, client: 10.0.0.3, server: 0.0.0.0:8080
+2015/03/17 20:24:46 [info] 4361#0: *269 client 10.0.0.3 closed keepalive connection
+2015/03/18 11:29:51 [info] 1647#0: *1 client closed connection while waiting for request, client: 10.0.0.3, server: 0.0.0.0:8080
+2015/03/18 11:29:55 [error] 1647#0: *2 open() "/home/nginx/webpanel/favicon.ico" failed (2: No such file or directory), client: 10.0.0.3, server: webpanel.localdomain, request: "GET /favicon.ico HTTP/1.1", host: "10.0.0.1:8080"
+2015/03/18 12:08:21 [info] 1647#0: *65 client closed connection while waiting for request, client: 10.0.0.3, server: 0.0.0.0:8080
+2015/03/18 12:54:40 [info] 1647#0: *119 client closed connection while waiting for request, client: 10.0.0.3, server: 0.0.0.0:8080
+2015/03/18 13:42:15 [info] 1647#0: *171 client closed connection while waiting for request, client: 10.0.0.3, server: 0.0.0.0:8080

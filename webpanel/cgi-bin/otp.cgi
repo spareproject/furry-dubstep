@@ -5,11 +5,7 @@ source ./functions/wrapper.sh
 cgi
 html
 input
-header
-output
-variables_fieldset
-log_fieldset
-input_test
-fcgiparams_fieldset
-footer
+#header
+otp
+#footer
 ###########################################################################################################################################################################################################################################

