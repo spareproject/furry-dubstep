@@ -1,9 +1,12 @@
 #!/bin/env bash
 DIR="/mnt/git/furry-dubstep"
 chown nginx:nginx ${DIR}
-chown -R nginx:nginx  ${DIR}/config
+chown -R root:nginx   ${DIR}/config
 chown -R root:root    ${DIR}/fcgiwrap.sock
-chown -R nginx:nginx  ${DIR}/keys
+chown -R nginx:nginx  ${DIR}/ftp
+chown -R cgi:cgi      ${DIR}/ftp/cgi-bin
+chown -R cgi:cgi      ${DIR}/ftp/ftp
+chown -R root:nginx  ${DIR}/keys
 chown -R nginx:nginx  ${DIR}/logs
 chown -R root:root    ${DIR}/old
 chown -R root:root    ${DIR}/perms-usable.sh
@@ -12,10 +15,12 @@ chown -R admin:wheel  ${DIR}/README.md
 chown -R nginx:nginx  ${DIR}/webpanel
 chown -R cgi:cgi      ${DIR}/webpanel/cgi-bin
 chown -R cgi:cgi      ${DIR}/webpanel/database
+chown -R cgi:cgi      ${DIR}/webpanel/gnupg
 chown root:root       ${DIR}/webserver.start
 chown root:root       ${DIR}/webserver.stop
 chmod 750             ${DIR}/config
 chmod 640             ${DIR}/config/*
+chmod 750 -R          ${DIR}/ftp
 chmod 750             ${DIR}/keys
 chmod 640             ${DIR}/keys/*
 chmod 750             ${DIR}/logs

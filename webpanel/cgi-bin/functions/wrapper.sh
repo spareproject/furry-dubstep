@@ -30,6 +30,7 @@ echo "
 <a class='menu left' href='/cgi-bin/shell.cgi'><h3><b>[shell]</b></h3></a>
 <a class='menu left' href='/cgi-bin/debug.cgi'><h3><b>[debug]</b></h3></a>
 <a class='menu left' href='/cgi-bin/gnupg.cgi'><h3><b>[gnupg]</b></h3></a>
+<a class='menu left' href='/cgi-bin/ftp.cgi'><h3><b>[ftp]</b></h3></a>
 <a class='menu right' href=#><h3><b>[ `date` ]</b></h3></a>
 </div>
 <div id='spacer'>a</div>

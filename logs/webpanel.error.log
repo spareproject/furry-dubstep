@@ -24,3 +24,29 @@
 2015/03/18 12:08:21 [info] 1647#0: *65 client closed connection while waiting for request, client: 10.0.0.3, server: 0.0.0.0:8080
 2015/03/18 12:54:40 [info] 1647#0: *119 client closed connection while waiting for request, client: 10.0.0.3, server: 0.0.0.0:8080
 2015/03/18 13:42:15 [info] 1647#0: *171 client closed connection while waiting for request, client: 10.0.0.3, server: 0.0.0.0:8080
+2015/03/18 14:01:02 [info] 1647#0: *191 client closed connection while waiting for request, client: 10.0.0.3, server: 0.0.0.0:8080
+2015/03/18 14:12:39 [info] 1647#0: *195 client closed connection while waiting for request, client: 10.0.0.3, server: 0.0.0.0:8080
+2015/03/18 14:52:04 [info] 1647#0: *256 client closed connection while waiting for request, client: 10.0.0.3, server: 0.0.0.0:8080
+2015/03/18 15:37:27 [info] 1647#0: *312 client closed connection while waiting for request, client: 10.0.0.3, server: 0.0.0.0:8080
+2015/03/19 00:09:15 [info] 14768#0: *1 client closed connection while waiting for request, client: 10.0.0.3, server: 0.0.0.0:8080
+2015/03/19 10:48:34 [info] 2647#0: *1 client closed connection while waiting for request, client: 10.0.0.3, server: 0.0.0.0:8080
+2015/03/19 10:48:39 [error] 2647#0: *2 open() "/home/nginx/webpanel/favicon.ico" failed (2: No such file or directory), client: 10.0.0.3, server: webpanel.localdomain, request: "GET /favicon.ico HTTP/1.1", host: "10.0.0.1:8080"
+2015/03/19 11:09:47 [info] 2647#0: *2 client 10.0.0.3 closed keepalive connection
+2015/04/04 21:34:10 [info] 1799#0: *1 client closed connection while waiting for request, client: 10.0.0.3, server: 0.0.0.0:8080
+2015/04/04 21:34:13 [error] 1799#0: *2 open() "/home/nginx/webpanel/favicon.ico" failed (2: No such file or directory), client: 10.0.0.3, server: webpanel.localdomain, request: "GET /favicon.ico HTTP/1.1", host: "10.0.0.1:8080"
+2015/04/04 22:01:25 [info] 1799#0: *61 client closed connection while waiting for request, client: 10.0.0.3, server: 0.0.0.0:8080
+2015/04/04 22:18:16 [info] 4360#0: *1 client closed connection while waiting for request, client: 10.0.0.3, server: 0.0.0.0:8080
+2015/04/04 22:36:25 [info] 5326#0: *1 client closed connection while waiting for request, client: 10.0.0.3, server: 0.0.0.0:8080
+2015/04/04 23:06:45 [info] 6820#0: *1 client closed connection while waiting for request, client: 10.0.0.3, server: 0.0.0.0:8080
+2015/04/04 23:07:26 [info] 6879#0: *1 client closed connection while waiting for request, client: 10.0.0.3, server: 0.0.0.0:8080
+2015/04/04 23:11:33 [info] 7146#0: *1 client closed connection while waiting for request, client: 10.0.0.3, server: 0.0.0.0:8080
+2015/04/04 23:12:40 [info] 7222#0: *1 client closed connection while waiting for request, client: 10.0.0.3, server: 0.0.0.0:8080
+2015/04/04 23:13:00 [info] 7222#0: *2 epoll_wait() reported that client prematurely closed connection, so upstream connection is closed too while sending request to upstream, client: 10.0.0.3, server: webpanel.localdomain, request: "GET /cgi-bin/gnupg.cgi HTTP/1.1", upstream: "fastcgi://unix:/home/nginx/fcgiwrap.sock:", host: "10.0.0.1:8080", referrer: "https://10.0.0.1:8080/cgi-bin/debug.cgi"
+2015/04/04 23:13:00 [info] 7222#0: *7 client closed connection while waiting for request, client: 10.0.0.3, server: 0.0.0.0:8080
+2015/04/04 23:15:06 [info] 7374#0: *1 client closed connection while waiting for request, client: 10.0.0.3, server: 0.0.0.0:8080
+2015/04/04 23:15:43 [info] 7425#0: *1 client closed connection while waiting for request, client: 10.0.0.3, server: 0.0.0.0:8080
+2015/04/04 23:22:22 [info] 7425#0: *7 client closed connection while waiting for request, client: 10.0.0.3, server: 0.0.0.0:8080
+2015/04/05 00:08:57 [info] 7425#0: *63 client closed connection while waiting for request, client: 10.0.0.3, server: 0.0.0.0:8080
+2015/04/05 00:29:12 [info] 2457#0: *1 client closed connection while waiting for request, client: 10.0.0.3, server: 0.0.0.0:8080
+2015/04/05 00:43:38 [info] 2995#0: *11 client closed connection while waiting for request, client: 10.0.0.3, server: 0.0.0.0:8080
+2015/04/05 01:27:35 [info] 5695#0: *1 client closed connection while waiting for request, client: 10.0.0.3, server: 0.0.0.0:8080

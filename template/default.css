@@ -1,0 +1,46 @@
+/****************************************************************************************************************************************************************************************/
+body{
+z-index:0;
+height:100%; width:100%;
+margin:0;
+padding:0;
+background-color:black;
+color:green;
+font-family:"Lucida Console", Monaco, monospace;
+font-size:1vw;
+overflow:auto;
+}
+/****************************************************************************************************************************************************************************************/
+#panel{   width:100%;margin:0px;padding:0px;background-color:green;color:black; }
+.top{     position:fixed;top:0;left:0;z-index:2;text-align:center; }
+.bottom{  position:fixed;bottom:0;left:0;z-index:2;text-align:center; }
+#spacer{  color:black;width:100%; }
+/****************************************************************************************************************************************************************************************/
+a{
+padding:0px;
+margin:0px;
+text-decoration:none;
+}
+.menu{
+height:100%;
+margin:0px;
+padding-left:1em;
+padding-right:1em;
+text-decoration:none;
+text-align:center;
+display:inline;
+color:black;
+}
+.menu:hover{
+background-color:black;
+color:green;
+}
+/****************************************************************************************************************************************************************************************/
+.left{ float:left }
+.right{ float:right }
+.center{ margin:auto; }
+p,h1,h2,h3,h4,h5,h6 { margin:0px; padding:0px; }
+form{ padding:0px; margin:0px; }
+fieldset { border:1px green solid; margin:2vh;padding:2vh; }
+input{ font-size:1vw; margin:1px; padding:1px; background-color:green; color:black; border:none; }
+/****************************************************************************************************************************************************************************************/

@@ -1,0 +1,56 @@
+#!/bin/bash
+##########################################################################################################################################################################################
+function cgi { echo -e "Content-type:text/html\n\n"; }
+function html {
+echo "
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv='Refresh' content='57;url='bash.cgi'/>
+<meta charset='utf-8'/>
+<link rel='stylesheet' type='text/css' href='/default.css'>
+<title>spareProject...</title>
+</head>
+<body>
+"
+}
+function header {
+echo "
+<div id='panel' class='top'>
+<a class='menu left' href='/cgi-bin/index.cgi'><h3><b>[spareProject]</b></h3></a>
+<a class='menu left' href='/cgi-bin/debug.cgi'><h3><b>[debug]</b></h3></a>
+<a class='menu right' href=#><h3><b>[ `date` ]</b></h3></a>
+</div>
+<div id='spacer'>a</div>
+"
+}
+function footer {
+echo "
+<div id='spacer'>a</div>
+<div id='panel' class='bottom'>Footer</div>
+</body>
+</html>
+"
+}
+##########################################################################################################################################################################################
+declare -A POST
+declare -A GET
+function input {
+if [[ ${REQUEST_METHOD} == "POST" ]];then
+  read -n ${CONTENT_LENGTH} -r POST_
+  POST_+="&";KEY="";CACHE=""
+  for i in `echo  ${POST_} | grep -o .`;do
+    if [[ "${i}" == "=" ]];then KEY=${CACHE};CACHE=""
+    elif [[ "$i" == "&" ]];then POST[${KEY}]=${CACHE};CACHE=""
+    else CACHE+=${i};fi
+  done
+elif [[ ! -z ${QUERY_STRING} ]];then
+  QUERY_STRING+="&";KEY="";CACHE=""
+  for i in `echo  ${QUERY_STRING} | grep -o .`; do
+    if [[ "${i}" == "=" ]];then KEY=${CACHE};CACHE=""
+    elif [[ "$i" == "&" ]];then GET[${KEY}]=${CACHE};CACHE=""
+    else CACHE+=${i};fi
+  done
+fi
+}
+##########################################################################################################################################################################################

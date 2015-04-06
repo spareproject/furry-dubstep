@@ -1,0 +1,32 @@
+#!/bin/env bash
+function upload {
+echo "
+<fieldset><legend><h1>upload</h1></legend>
+<table>
+<tr>
+<form action='/cgi-bin/ftp.cgi' method='post' enctype='multipart/form-data'>
+<td><input type='file' name='file'></td>
+<td><input type='submit'></td>
+</form>
+</tr>
+</table>
+</fieldset>
+"
+}
+function download {
+echo "<fieldset><legend><h1>download</h1></legend><pre>"
+for i in `ls /home/nginx/ftp/ftp`;do
+echo "<a class='download' href='/ftp/${i}'>${i}</a>"
+done
+echo "</pre></fieldset>"
+}
+function input_ftp {
+if [[ ${REQUEST_METHOD} == "POST" ]];then
+tmpname="`date "+%F-%T"`-`makepasswd --chars=7`"
+cat > /home/nginx/ftp/ftp/${tmpname}
+sed -i '1,4d' /home/nginx/ftp/ftp/${tmpname}
+sed -i '$d' /home/nginx/ftp/ftp/${tmpname}
+sed -i '$d' /home/nginx/ftp/ftp/${tmpname}
+fi
+}
+

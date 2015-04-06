@@ -1,0 +1,17 @@
+2015/04/05 00:37:55 [info] 2995#0: *1 client closed connection while waiting for request, client: 10.0.0.3, server: 0.0.0.0:8081
+2015/04/05 00:37:55 [error] 2995#0: *2 open() "/home/nginx/ftp/favicon.ico" failed (2: No such file or directory), client: 10.0.0.3, server: ftp, request: "GET /favicon.ico HTTP/1.1", host: "10.0.0.1:8081"
+2015/04/05 01:01:02 [info] 2995#0: *33 client closed connection while waiting for request, client: 10.0.0.3, server: 0.0.0.0:8081
+2015/04/05 01:04:22 [info] 2995#0: *40 client closed connection while waiting for request, client: 10.0.0.3, server: 0.0.0.0:8081
+2015/04/05 01:07:25 [info] 2995#0: *47 client closed connection while waiting for request, client: 10.0.0.3, server: 0.0.0.0:8081
+2015/04/05 01:08:54 [info] 2995#0: *52 client closed connection while waiting for request, client: 10.0.0.3, server: 0.0.0.0:8081
+2015/04/05 01:12:32 [info] 2995#0: *60 client closed connection while waiting for request, client: 10.0.0.3, server: 0.0.0.0:8081
+2015/04/06 02:13:07 [info] 6669#0: *1 client closed connection while waiting for request, client: 10.0.0.4, server: 0.0.0.0:8080
+2015/04/06 02:54:17 [info] 6669#0: *59 client closed connection while waiting for request, client: 10.0.0.4, server: 0.0.0.0:8080
+2015/04/06 03:24:48 [info] 6669#0: *89 client closed connection while waiting for request, client: 10.0.0.4, server: 0.0.0.0:8080
+2015/04/06 04:08:46 [info] 6669#0: *141 client closed connection while waiting for request, client: 10.0.0.4, server: 0.0.0.0:8080
+2015/04/06 04:37:02 [info] 14607#0: *1 client closed connection while waiting for request, client: 10.0.0.4, server: 0.0.0.0:8080
+2015/04/06 12:16:26 [info] 2145#0: *1 client closed connection while waiting for request, client: 10.0.0.3, server: 0.0.0.0:8080
+2015/04/06 12:16:31 [error] 2145#0: *2 open() "/home/nginx/ftp/favicon.ico" failed (2: No such file or directory), client: 10.0.0.3, server: ftp, request: "GET /favicon.ico HTTP/1.1", host: "10.0.0.1:8080"
+2015/04/06 13:11:49 [info] 5028#0: *1 client closed connection while waiting for request, client: 10.0.0.3, server: 0.0.0.0:8080
+2015/04/06 13:22:38 [info] 5028#0: *12 client closed connection while waiting for request, client: 10.0.0.3, server: 0.0.0.0:8080
+2015/04/06 14:09:58 [info] 5028#0: *66 client closed connection while waiting for request, client: 10.0.0.3, server: 0.0.0.0:8080

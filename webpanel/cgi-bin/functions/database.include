@@ -4,6 +4,6 @@
 
 sqlite3 /path/to/database "create table new_table (first INTEGER PRIMARY KEY, second TEXT, third TEXT);"
 sqlite3 /database.sqlite "insert into new_table (first,second,third) values ('data', 'more data', 'even more data');"
-sqlite3 /database.db "select * from net_table";
+sqlite3 /database.db "select * from new_table";
 
 
