@@ -12,6 +12,8 @@ chown -R root:root    ${DIR}/old
 chown -R root:root    ${DIR}/perms-usable.sh
 chown -R root:root    ${DIR}/perms-upload.sh
 chown -R admin:wheel  ${DIR}/README.md
+chown -R nginx:nginx  ${DIR}/template
+chown -R cgi:cgi      ${DIR}/template/cgi-bin
 chown -R nginx:nginx  ${DIR}/webpanel
 chown -R cgi:cgi      ${DIR}/webpanel/cgi-bin
 chown -R cgi:cgi      ${DIR}/webpanel/database
@@ -29,6 +31,7 @@ chmod 750 -R          ${DIR}/old
 chmod 750             ${DIR}/perms-usable.sh
 chmod 750             ${DIR}/perms-upload.sh
 chmod 640             ${DIR}/README.md
+chmod 750 -R          ${DIR}/template
 chmod 750 -R          ${DIR}/webpanel
 chmod 750             ${DIR}/webserver.start
-chmod 750             ${DIR}/webserver.start
+chmod 750             ${DIR}/webserver.stop

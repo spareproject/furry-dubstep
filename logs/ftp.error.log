@@ -15,3 +15,4 @@
 2015/04/06 13:11:49 [info] 5028#0: *1 client closed connection while waiting for request, client: 10.0.0.3, server: 0.0.0.0:8080
 2015/04/06 13:22:38 [info] 5028#0: *12 client closed connection while waiting for request, client: 10.0.0.3, server: 0.0.0.0:8080
 2015/04/06 14:09:58 [info] 5028#0: *66 client closed connection while waiting for request, client: 10.0.0.3, server: 0.0.0.0:8080
+2015/04/06 14:46:17 [info] 5028#0: *108 client closed connection while waiting for request, client: 10.0.0.3, server: 0.0.0.0:8080
