@@ -39,7 +39,7 @@ function input {
 if [[ ${REQUEST_METHOD} == "POST" ]];then
   read -n ${CONTENT_LENGTH} -r POST_
   POST_+="&";KEY="";CACHE=""
-  for i in `echo  ${POST_} | grep -o .`;do
+  for i in `echo ${POST_} | grep -o .`;do
     if [[ "${i}" == "=" ]];then KEY=${CACHE};CACHE=""
     elif [[ "$i" == "&" ]];then POST[${KEY}]=${CACHE};CACHE=""
     else CACHE+=${i};fi

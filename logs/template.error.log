@@ -14,3 +14,4 @@
 2015/04/05 14:36:26 [info] 2213#0: *133 client closed connection while waiting for request, client: 10.0.0.3, server: 0.0.0.0:8080
 2015/04/06 01:36:09 [info] 4525#0: *1 client closed connection while waiting for request, client: 10.0.0.4, server: 0.0.0.0:8080
 2015/04/06 01:36:13 [error] 4525#0: *2 open() "/home/nginx/template/favicon.ico" failed (2: No such file or directory), client: 10.0.0.4, server: template, request: "GET /favicon.ico HTTP/1.1", host: "10.0.0.1:8080"
+2015/04/06 19:16:01 [info] 11421#0: *1 client closed connection while waiting for request, client: 10.0.0.3, server: 0.0.0.0:8080

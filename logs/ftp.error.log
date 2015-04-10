@@ -16,3 +16,9 @@
 2015/04/06 13:22:38 [info] 5028#0: *12 client closed connection while waiting for request, client: 10.0.0.3, server: 0.0.0.0:8080
 2015/04/06 14:09:58 [info] 5028#0: *66 client closed connection while waiting for request, client: 10.0.0.3, server: 0.0.0.0:8080
 2015/04/06 14:46:17 [info] 5028#0: *108 client closed connection while waiting for request, client: 10.0.0.3, server: 0.0.0.0:8080
+2015/04/06 19:08:37 [info] 10853#0: *1 client closed connection while waiting for request, client: 10.0.0.3, server: 0.0.0.0:8080
+2015/04/06 19:08:44 [error] 10853#0: *2 open() "/home/nginx/ftp/favicon.ico" failed (2: No such file or directory), client: 10.0.0.3, server: ftp, request: "GET /favicon.ico HTTP/1.1", host: "10.0.0.1:8080"
+2015/04/06 19:08:53 [error] 10853#0: *2 client intended to send too large body: 119365352 bytes, client: 10.0.0.3, server: ftp, request: "POST /cgi-bin/ftp.cgi HTTP/1.1", host: "10.0.0.1:8080", referrer: "https://10.0.0.1:8080/cgi-bin/ftp.cgi"
+2015/04/06 19:09:55 [info] 10853#0: *5 client closed connection while waiting for request, client: 10.0.0.3, server: 0.0.0.0:8080
+2015/04/06 19:36:38 [info] 12544#0: *1 client closed connection while waiting for request, client: 10.0.0.3, server: 0.0.0.0:8080
+2015/04/06 19:54:13 [error] 12544#0: *2 open() "/home/nginx/ftp/ftp/sshd" failed (13: Permission denied), client: 10.0.0.3, server: ftp, request: "GET /ftp/sshd HTTP/1.1", host: "10.0.0.1:8080", referrer: "https://10.0.0.1:8080/cgi-bin/ftp.cgi"
